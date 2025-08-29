@@ -7,10 +7,10 @@ import {
 } from '@solana/wallet-adapter-react-ui';
 import { clusterApiUrl } from '@solana/web3.js';
 import '@solana/wallet-adapter-react-ui/styles.css';
-import AirDrop from './AirDrop';
-import ShowSolBalance from './ShowSolBalance';
-import SendTokens from './SendTokens';
-import SignMessage from './SignMessage';
+import AirDrop from './components/AirDrop';
+import ShowSolBalance from './components/ShowSolBalance';
+import SendTokens from './components/SendTokens';
+import SignMessage from './components/SignMessage';
 
 function App() {
   return (
