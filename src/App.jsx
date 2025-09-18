@@ -11,6 +11,7 @@ import AirDrop from './components/AirDrop';
 import ShowSolBalance from './components/ShowSolBalance';
 import SendTokens from './components/SendTokens';
 import SignMessage from './components/SignMessage';
+import TokenLaunchpad from './components/tokenLaunchPad';
 
 function App() {
   return (
@@ -35,7 +36,10 @@ function App() {
                 <ShowSolBalance />
                 <SendTokens />
                 <SignMessage />
+                
               </div>
+              <TokenLaunchpad />
+
             </div>
           </div>
         </WalletModalProvider>
